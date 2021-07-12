@@ -45,7 +45,7 @@ class lista{
       }else{
           let aux = this.lista[0].proximo;
           this.lista[0].proximo = aux.proximo; // [2,5]
-          console.log(this.lista[0].proximo)
+          
       }
   }
    length(){
